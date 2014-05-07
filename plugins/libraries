@@ -1,0 +1,13 @@
+[{
+    "author": "Roill.com",
+    "version": "0.1.0",
+    "name": "Libraries",
+    "url": "https://github.com/Codiad/Codiad-Plugin-Template",
+    "rightbar": [
+        {
+            "action": "codiad.getLibraries.open_modal();",
+            "icon": "icon-droplet",
+            "title": "Libraries"
+        }
+    ]
+}]
