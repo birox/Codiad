@@ -43,9 +43,6 @@
     //////////////////////////////////////////////////////////////////
 
     if($_GET['action']=='open'){
-        if (!checkPath($_GET['path'])) {
-            die(formatJSEND("error","No Access"));
-        }
         $Project->path = $_GET['path'];
         $Project->Open();
     }
@@ -76,9 +73,6 @@
     //////////////////////////////////////////////////////////////////
 
     if($_GET['action']=='rename'){
-        if (!checkPath($_GET['project_path'])) {
-            die(formatJSEND("error","No Access"));
-        }
         $Project->path = $_GET['project_path'];
         $Project->Rename();
     }

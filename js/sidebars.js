@@ -46,8 +46,6 @@
                     $('#lock-right-sidebar')
                         .removeClass('icon-lock')
                         .addClass('icon-switch');
-                    //Push cursor position rightwards
-                    $('#cursor-position').css("right", "30px");
 
                 } else {
 
@@ -55,8 +53,6 @@
                     $('#lock-right-sidebar')
                         .removeClass('icon-switch')
                         .addClass('icon-lock');
-                    //Push cursor position leftwards
-                    $('#cursor-position').css("right", "220px");
 
                 }
             });
